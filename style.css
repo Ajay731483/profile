@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-container {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.profile-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: relative;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #6a11cb;
+}
+
+.profile-name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.profile-title {
+    font-size: 18px;
+    color: #777;
+}
+
+.profile-description {
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.profile-socials {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #f4f4f4;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #6a11cb;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #2575fc;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    background: linear-gradient(135deg, #white, #e8ebf3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.photo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.about-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #0078d7;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+    flex: 2;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0078d7;
+}
+
+p {
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .photo-container {
+        margin: 0 0 20px 0;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f0f4fd, #e0e9ef);
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #3e5c76;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+section.hobby {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #3e5c76;
+    margin-bottom: 10px;
+}
+
+.hobby-video {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #ececec;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e5c76;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7c7c7c;
+}

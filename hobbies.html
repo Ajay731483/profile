@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>movies & music</h1>
+        </header>
+
+        <section class="hobby">
+            <h2></h2>
+            <video class="hobby-video" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3>Favorite Audio</h3>
+            <audio controls>
+                <source src="c:\Users\AJAY C M\Music\Yetthakond_Hogu_Ma.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </div>
+
+    <script>
+        function playAudio(id) {
+            var audio = document.getElementById(id);
+            audio.play();
+        }
+    </script>
+</body>
+</html>
